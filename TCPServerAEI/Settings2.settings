@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TCPServerAEI" GeneratedClassName="Settings2">
+  <Profiles />
+  <Settings>
+    <Setting Name="HostIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="HostPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1322</Value>
+    </Setting>
+    <Setting Name="receivePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\CHINA_TADS_M\AEI2</Value>
+    </Setting>
+    <Setting Name="TimeOut" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

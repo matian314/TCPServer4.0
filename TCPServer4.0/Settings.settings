@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TCPServer4._0" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="HostIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="HostPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1321</Value>
+    </Setting>
+    <Setting Name="receiveFSFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\CHINA_TADS_M\MCurrentData\</Value>
+    </Setting>
+    <Setting Name="serverTrainIDPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\CHINA_TADS_M\SyncFiles\TrainID.txt</Value>
+    </Setting>
+    <Setting Name="ClientIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">请在此配置远端IP地址，类似192.168.10.3</Value>
+    </Setting>
+    <Setting Name="ClientPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="receiveSoundFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\CHINA_TADS_M\MAxleArch\</Value>
+    </Setting>
+    <Setting Name="sendFSFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\CHINA_TADS_M\MCurrentData</Value>
+    </Setting>
+    <Setting Name="sendSoundFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\CHINA_TADS_M\MAxleArch</Value>
+    </Setting>
+    <Setting Name="sendErrorFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\CHINA_TADS_M\MSendAxles</Value>
+    </Setting>
+    <Setting Name="receiveErrorFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\CHINA_TADS_M\MSendAxles\</Value>
+    </Setting>
+    <Setting Name="sendDatFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\CHINA_TADS_M\MAxleArch</Value>
+    </Setting>
+    <Setting Name="receiveDatFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\CHINA_TADS_M\MAxleArch\</Value>
+    </Setting>
+    <Setting Name="TimeOut" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20000</Value>
+    </Setting>
+    <Setting Name="receiveWavFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\CHINA_TADS_M\MAxleArch\</Value>
+    </Setting>
+    <Setting Name="receiveWavFilePath2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\CHINA_TADS_M\MSendAxles\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
