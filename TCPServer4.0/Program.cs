@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net;
+using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Text.RegularExpressions;
 using System.IO;
@@ -92,7 +93,15 @@ namespace TCPServer4._0
                         string deleteLogName = $@"{Directory.GetCurrentDirectory()}\TCPServer{DateTime.Now.AddDays(0).ToString("yyyyMMdd")}.log";
                         File.Delete(deleteLogName);
                     }
-
+                    Ping pingSender = new Ping();
+                    PingReply pingReply = pingSender.Send(Settings.Default.ClientIP, 1000);
+                    if (pingReply.Status != IPStatus.Success)
+                    {
+                        Console.WriteLine(DateTime.Now);
+                        Console.WriteLine($"{Settings.Default.ClientIP}网络连接异常，类型为{pingReply.Status.ToString()}");
+                        Trace.WriteLine(DateTime.Now);
+                        Trace.WriteLine($"{Settings.Default.ClientIP}网络连接异常，类型为{pingReply.Status.ToString()}");
+                    }
 
                     //等待连接
                     //Trace.WriteLine($"\n\r{DateTime.Now}");
